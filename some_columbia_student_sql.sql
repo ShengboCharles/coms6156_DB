@@ -1,6 +1,9 @@
 /*
  Create table statement.
  */
+create database coms6156_hw0;
+use coms6156_hw0;
+
 create table columbia_student
 (
     auto_id     int auto_increment
@@ -23,3 +26,5 @@ create table columbia_student
  insert into columbia_student (last_name, first_name, middle_name, email, uni)
     values ("Ferguson", "Donald", "Francis", "dff@cs.columbia.edu", "dff9");
 
+insert into columbia_student (last_name, first_name, email, uni)
+    values ("Shengbo", "Chen", "sc4918@columbia.edu", "sc4918");
